@@ -1,0 +1,91 @@
+body{
+    font: 14px/24px  微软雅黑, 黑体, Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url("../image/next.png") no-repeat;
+    line-height: 16px;
+    top: 7px;
+    left: 100px;
+}
+.menu>li{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    background-color: #4593FD;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+.menu>li:hover{
+    background-color: #388AF5;
+}
+
+.menu ul{
+    position: absolute;
+    /*width: 120px;*/
+    left: 120px;
+    top: 0;
+    text-align: left;
+    padding-left: 0;
+    display: none;
+    border: 2px solid #4593FD;
+    background-color: #F7FAFA;
+    color: black;
+    padding-left: 8px;
+}
+.menu ul li{
+    float: left;
+    width: 140px;
+    background-color: #F7FAFA ;
+    color: black;
+}
+.two-menu{
+    display: inline-block;
+    width: 125px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}
+.add{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 120px;
+    margin-top: 8px;
+    /*background-color:  #4593FD;*/
+    background: url("../image/add.png");
+}
+.del{
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    margin-top: 6px;
+    width: 18px;
+    height: 18px;
+    background: url("../image/del.png");
+    /*background-color: red;*/
+}
+.modifier{
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    margin-top: 6px;
+    width: 18px;
+    height: 18px;
+    background: url("../image/modifi.png");
+    /*background-color: #4593FD;*/
+}
